@@ -14,5 +14,4 @@ This folder contains the code for **Task 2** of the assignment. The script can:
    source venv/bin/activate   # Mac/Linux
    
 pip install langchain openai google-api-python-client
-export YOUTUBE_API_KEY="your-youtube-api-key"
 
