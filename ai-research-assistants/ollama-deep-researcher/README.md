@@ -11,3 +11,5 @@ This folder contains the code for **Task 1** of the assignment. It demonstrates 
    source venv/bin/activate
    pip install langchain openai
 
+export OPENAI_API_KEY="your-openai-api-key"
+$env:OPENAI_API_KEY="your-openai-api-key"
