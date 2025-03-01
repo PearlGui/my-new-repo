@@ -11,11 +11,11 @@ def main():
         print("Error: OPENAI_API_KEY not set. Please set it in your environment.")
         return
     
-    llm = OpenAI(
-        temperature=0.7,
-        openai_api_key=openai_api_key,
-        model_name="text-davinci-003"  # or "gpt-3.5-turbo"
-    )
+   llm = OpenAI(
+    temperature=0.7,
+    openai_api_key=os.getenv("OPENAI_API_KEY"),
+    model_name="text-davinci-003"
+   )
 
     # 2. Create a prompt template
     prompt = PromptTemplate(
