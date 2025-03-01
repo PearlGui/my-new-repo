@@ -38,3 +38,8 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+from langchain.llms import Ollama
+
+llm = Ollama(model="llama2", system_prompt="You are a helpful research assistant.")
+
